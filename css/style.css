@@ -539,6 +539,7 @@ textarea {
 
 
 /* media queries */
+
 /* smooth transitions globally */
 .hero-section,
 .hero-wrapper,
@@ -595,10 +596,8 @@ textarea {
     iframe {
         width: 100%;
         height: 300px;
-        /* Added height for better aspect ratio on tablets */
     }
 
-    /* Ensure images in about section are responsive */
     .about-content img {
         width: 100%;
         height: auto;
@@ -646,7 +645,6 @@ textarea {
         height: 50vh;
     }
 
-    /* hero mobile redesign */
     .bg-shape {
         background: white;
         border-radius: 0;
@@ -663,9 +661,7 @@ textarea {
     .hero-img {
         height: 320px;
         background-size: cover;
-        /* Changed from contain to cover for better filling on mobile */
         background-position: center;
-        /* Adjusted position for better centering */
         background-repeat: no-repeat;
     }
 
@@ -695,7 +691,6 @@ textarea {
         width: 40%;
     }
 
-    /* cards smooth stacking */
     .card {
         width: auto;
     }
@@ -707,7 +702,6 @@ textarea {
 
     .testimonial-card img {
         width: 80px;
-        /* Reduced size for mobile */
         height: 80px;
     }
 
@@ -728,14 +722,11 @@ textarea {
     iframe {
         width: 100%;
         height: 250px;
-        /* Adjusted height for mobile */
     }
 
-    /* Ensure all images are responsive */
     .about-content img,
     .testimonial-card img {
         width: 80px;
-        /* Reduced size for mobile */
         height: 80px;
     }
 }
@@ -758,7 +749,6 @@ textarea {
     .hero-img {
         height: 260px;
         background-size: cover;
-        /* Ensured cover for consistency */
         background-position: center;
     }
 
@@ -768,17 +758,14 @@ textarea {
 
     .testimonial-card img {
         width: 70px;
-        /* Further reduced for very small screens */
         height: 70px;
     }
 
     iframe {
         width: 100%;
         height: 200px;
-        /* Further adjusted height */
     }
 
-    /* Additional image responsiveness */
 
     .about{
         margin-top: 0;
