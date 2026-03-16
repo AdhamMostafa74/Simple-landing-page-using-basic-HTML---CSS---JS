@@ -1,5 +1,5 @@
 * {
-    
+
     margin: 0;
     padding: 0;
     text-align: center;
@@ -434,6 +434,18 @@ body {
     box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
 }
 
+.contact h2::after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10%;
+    font-size: 1px;
+    background: rgb(0, 31, 204)
+}
+
 .contact-form textarea {
     min-height: 150px;
     resize: none;
@@ -470,7 +482,7 @@ textarea {
 
 /* footer start */
 .premium-footer {
-    background: linear-gradient(135deg,var(--theme-color), #09c);
+    background: linear-gradient(135deg, var(--theme-color), #09c);
     color: white;
     padding: 5rem 2rem 2rem;
     margin-top: 5rem;
@@ -641,7 +653,7 @@ textarea {
         max-height: 300px;
     }
 
-    .home{
+    .home {
         height: 50vh;
     }
 
@@ -767,7 +779,7 @@ textarea {
     }
 
 
-    .about{
+    .about {
         margin-top: 0;
     }
 
@@ -775,7 +787,9 @@ textarea {
         width: 100%;
         height: auto;
     }
-    .next, .prev{
+
+    .next,
+    .prev {
         display: none;
     }
 }
